@@ -54,7 +54,7 @@ export default function AboutMe() {
 
 
 
-        <div className="py-4 flex flex-col justify-center items-center pt-6 md:px-4 md:animate-slideInLeft animate-slideInRight">
+        <div className="py-4 flex flex-col justify-center items-center pt-6 md:px-4">
           <h2 className={`text-2xl font-semibold text-gray-700`}>
             Greetings from Arishah
           </h2>
@@ -72,7 +72,7 @@ Collaboration and effective communication are crucial to my approach, as I seek 
             />
           </div>
         </div>
-        <div className="relative flex justify-center items-center overflow-hidden  animate-slideInLeft md:animate-slideInRight">
+        <div className="relative flex justify-center items-center">
           {/* Gradient Image (Background) */}
           <div className="relative flex justify-center items-center">
             <div className="absolute w-[300px] h-[290px] sm:w-[370px] sm:h-[370px] mb-4">
