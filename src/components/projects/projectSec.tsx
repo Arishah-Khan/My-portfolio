@@ -32,7 +32,7 @@ export default function ProjectSection() {
                 <div className="flex justify-center items-center">
                     <JavascriptCard
                         name="Calculator"
-                        images={["/images/jsCal1.png", "/images/jsCal2.png"]}
+                        images={["/images/jscal1.png", "/images/calculator2.png"]}
                         demoLink="https://arishah-khan.github.io/Calculator-javascript/"
                         codeLink="https://github.com/Arishah-Khan/Calculator-javascript"
                         bgColor="bg-[#B80000]"
