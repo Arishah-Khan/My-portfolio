@@ -1,10 +1,5 @@
-import { Poppins } from "next/font/google";
 import NextjsCard from "./nextjs-card";
 
-const poppins = Poppins({
-    subsets: ["latin"],
-    weight: ["400", "600", "700"],
-});
 
 const projects = [
     {
@@ -35,12 +30,12 @@ const projects = [
 
 export default function NextJsProjects() {
     return (
-        <main className="bg-[#ebeae9] py-10">
+        <main className="py-10">
             <section>
-                <h3 className={`text-base sm:text-lg md:text-xl font-bold mb-1 mt-2 py-2 px-5 ${poppins.className}`}>
+                <h3 className={`text-base sm:text-lg md:text-xl font-bold mb-1 mt-2 py-2 px-5`}>
                     NextJs Projects
                 </h3>
-                <p className={`${poppins.className} pb-8 px-5 text-sm md:text-base`}>
+                <p className={`pb-8 px-5 text-sm md:text-base`}>
                     Here are some of the projects I have created using NextJs and Tailwind CSS.
                 </p>
 

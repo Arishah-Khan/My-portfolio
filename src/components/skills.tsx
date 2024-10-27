@@ -1,11 +1,5 @@
-import { Poppins } from "next/font/google";
 import Image from "next/image";
 
-// Initialize Poppins font for headings
-const poppins = Poppins({
-    subsets: ["latin"],
-    weight: ["400", "600", "700"],
-});
 
 export default function Skills() {
     const skills = [
@@ -25,7 +19,7 @@ export default function Skills() {
 
     return (
         <div className="bg-[#fafafa] px-6 md:px-10 lg:px-14 py-12 rounded-lg shadow-lg">
-           <h2 className={`text-[#071fa8] text-2xl md:text-3xl lg:text-4xl font-bold ${poppins.className} text-center pt-2 sm:pt-4`}>
+           <h2 className={`text-[#071fa8] text-2xl md:text-3xl lg:text-4xl font-bold text-center pt-2 sm:pt-4`}>
             Skills
           </h2>
           <p className="text-gray-600 text-center mt-4 text-base sm:text-lg">

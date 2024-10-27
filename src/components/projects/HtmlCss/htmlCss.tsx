@@ -1,4 +1,3 @@
-import { Poppins } from "next/font/google"
 import ProjectCard from "./HtmlCssProjectsCard";
 
 
@@ -9,13 +8,6 @@ import {
     CarouselNext,
     CarouselPrevious,
 } from "@/components/ui/carousel"
-
-
-const poppins = Poppins({
-    subsets: ["latin"],
-    weight: ["400", "600", "700"],
-});
-
 
 
 const projects = [
@@ -103,14 +95,11 @@ const projects = [
 
 export default function HtmlCssProjects() {
     return (
-        <main className="bg-[#ebeae9] py-10 ">
-            <h2 className={`text-[#071fa8] text-2xl md:text-3xl lg:text-4xl font-bold ${poppins.className} text-center pt-2 sm:pt-4`}>
-                Projects
-            </h2>
+        <main className="py-10 ">
 
             <section>
-                <h3 className={`text-base sm:text-lg md:text-xl font-bold mb-1 mt-2 py-2 px-5 ${poppins.className}`}>HTML, CSS, and Bootstrap Projects</h3>
-                <p className={`${poppins.className} pb-8 px-5 text-sm md:text-base`}>Here are some of the projects I have created using HTML, CSS, and Bootstrap.</p>
+                <h3 className={`text-base sm:text-lg md:text-xl font-bold mb-1 mt-2 py-2 px-5`}>HTML, CSS, and Bootstrap Projects</h3>
+                <p className={`pb-8 px-5 text-sm md:text-base`}>Here are some of the projects I have created using HTML, CSS, and Bootstrap.</p>
 
                 <Carousel>
                     <CarouselPrevious className="absolute left-4 top-1/2 transform -translate-y-1/2">

@@ -1,12 +1,7 @@
 "use client";
 import { useState } from 'react';
 import Swal from 'sweetalert2';
-import { Poppins } from "next/font/google"
 
-const poppins = Poppins({
-    subsets: ["latin"],
-    weight: ["400", "600", "700"],
-});
 
 export default function ContactMe() {
     const [loading, setLoading] = useState(false);
@@ -50,10 +45,10 @@ export default function ContactMe() {
     return (
         <section id="contact" className="bg-[#fafafa] py-12 px-6 scroll-mt-24">
             <div className="max-w-lg mx-auto py-4 text-center bg-[#ebeae9] border-black  border-2 rounded-lg">
-                <h2 className={`text-[#071fa8] text-2xl md:text-3xl lg:text-4xl font-bold ${poppins.className} text-center pt-2 sm:pt-4`}>
+                <h2 className={`text-[#071fa8] text-2xl md:text-3xl lg:text-4xl font-bold text-center pt-2 sm:pt-4`}>
                     Get In Touch
                 </h2>
-                <p className={`${poppins.className} py-4 px-5 text-sm md:text-base`}>
+                <p className={`py-4 px-5 text-sm md:text-base`}>
                     Have any questions? Feel free to send a message.
                 </p>
 

@@ -1,11 +1,6 @@
 import ProjectButton from "../project-btn";
-import { Poppins } from "next/font/google"; 
 import Image from "next/image";
 
-const poppins = Poppins({
-    subsets: ["latin"],
-    weight: ["400", "600", "700"],
-});
 
 interface CardProps {
     name: string; 
@@ -35,7 +30,7 @@ const ProjectCard = ({
     return (
         <div className={`${cardbg} border rounded-lg p-4 hover:shadow-2xl transition-shadow duration-300`}>
             {/* Project Name */}
-            <h3 className={`font-semibold text-sm sm:text-base mb-2 text-center ${headingColour} ${poppins.className}`}>
+            <h3 className={`font-semibold text-sm sm:text-base mb-2 text-center ${headingColour} `}>
                 {name}
             </h3>
 

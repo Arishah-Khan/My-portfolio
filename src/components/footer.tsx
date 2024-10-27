@@ -7,7 +7,7 @@ import ResumeBtn from './bottons/resume-btn';
 
 const Footer = () => {
     return (
-        <footer className="py-10 bg-[#ebeae9] ">
+        <footer className="py-12 bg-[#ebeae9] ">
             <div className=" px-3 grid grid-cols-1 md:grid-cols-3 pt- gap-4">
                 <div className="flex justify-center items-center mb-4 gap-2">
                     <Link href="/" className="text-black transition-colors duration-300  rounded-md hover:bg-[#e0e0e0] hover:text-[#01004c] hover:shadow-lg p-2 ">Home</Link>
@@ -16,14 +16,12 @@ const Footer = () => {
                     <Link href="#contact" className="text-black transition-colors duration-300 p-2 rounded-md hover:bg-[#e0e0e0] hover:text-[#01004c] hover:shadow-lg ">Contact</Link>
                 </div>
 
-                {/* Centered Email Me Button */}
                 <div>
                     <ResumeBtn
                         href="mailto:arishahsanaullah78@gmail.com"
                         text="Email Me"
                     />
                 </div>
-                {/* Third Div for GitHub and LinkedIn Icons */}
                 <div className="flex justify-center w-1/2 mx-auto py-4 space-x-6">
                     <div className="relative flex items-center justify-center w-8 h-8 bg-black text-white rounded-full hover:bg-[#0077B5] transition-colors duration-300 group">
                         <Link href="https://www.linkedin.com/in/arishah-khan-b606092b8/" aria-label="LinkedIn" className="flex items-center justify-center">

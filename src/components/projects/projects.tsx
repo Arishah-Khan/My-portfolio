@@ -5,7 +5,7 @@ import JavaScriptProjects from "./javascript/javascript"
 
 export default function Projects(){
 return(
-    <main id="projects" className="scroll-mt-24 pb-6 bg-[#ebeae9]">
+    <main className=" pb-6 ">
         <HtmlCssProjects />
         <TypescriptProjects />
         <JavaScriptProjects />

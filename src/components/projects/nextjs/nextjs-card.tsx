@@ -1,18 +1,13 @@
 import ProjectButton from "../project-btn";
-import { Poppins } from "next/font/google"; // Import Poppins font
 import Image from "next/image";
 
-// Initialize Poppins font for headings
-const poppins = Poppins({
-    subsets: ["latin"],
-    weight: ["400", "600", "700"],
-});
+
 
 interface CardProps {
-    name: string; // Project name
-    images: string[]; // Array of image URLs
-    demoLink: string; // Live demo link
-    codeLink: string; // Code link
+    name: string; 
+    images: string[]; 
+    demoLink: string; 
+    codeLink: string; 
     bgColor: string;
     hoverBgColor: string;
     textColor: string;
@@ -36,7 +31,7 @@ const NextjsCard = ({
     return (
         <div className={`${cardbg} border rounded-lg py-4 hover:shadow-2xl transition-shadow duration-300 max-w-sm h-[320px] flex flex-col justify-between px-6`}>
             {/* Project Name */}
-            <h3 className={`font-semibold text-sm sm:text-base mb-2 text-center ${headingColour} ${poppins.className}`}>
+            <h3 className={`font-semibold text-sm sm:text-base mb-2 text-center ${headingColour} `}>
                 {name}
             </h3>
 
