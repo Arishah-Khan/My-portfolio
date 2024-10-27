@@ -12,7 +12,7 @@ import {
 const jsProjects = [
     {
         name: "Calculator",
-        images: ["/images/jscal1.png", "/images/calculator2.png"],
+        images: ["/images/calculator3.png", "/images/calculator2.png"],
         demoLink: "https://arishah-khan.github.io/Calculator-javascript/",
         codeLink: "https://github.com/Arishah-Khan/Calculator-javascript",
         bgColor: "bg-[#B80000]", // Button background color
