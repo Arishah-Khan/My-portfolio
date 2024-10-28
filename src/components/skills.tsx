@@ -27,7 +27,7 @@ export default function Skills() {
           </p>
 
           {/* Updated grid layout */}
-          <div className="mt-8 grid grid-cols-3 sm:grid-cols-4 gap-3 lg:grid-cols-6 sm:gap-y-6 sm:gap-x-8 text-center">
+          <div className="mt-8 grid grid-cols-3 sm:grid-cols-4 gap-3 lg:grid-cols-6 sm:gap-y-6 sm:gap-x-8 xl:gap-x-14 text-center">
               {skills.map((skill, index) => (
                   <div 
                       key={index} 
