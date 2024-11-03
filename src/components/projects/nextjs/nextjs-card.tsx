@@ -57,8 +57,8 @@ const NextjsCard = ({
                     src={images[2]} // Third image
                     alt={name}
                     width={80} // Different size for the third image
-                    height={120}
-                    className={`${headingColour} border-2 rounded-lg mt-2`} // Add some margin to separate it
+                    height={100}
+                    className={`${headingColour} border-2 rounded-lg mt-2 h-[200px]`} // Add some margin to separate it
                     style={{ objectFit: 'cover' }} // Maintain aspect ratio
                 />
             </div>

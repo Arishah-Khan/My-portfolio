@@ -11,6 +11,18 @@ import {
 
 const jsProjects = [
     {
+        name: "Resume Builder",
+        images: ["/images/resume1.png", "/images/resume2.png"],
+        demoLink: "https://hackathone-mile-stone4.vercel.app/",
+        codeLink: "https://github.com/Arishah-Khan/hackathoneMileStone4",
+        bgColor: "bg-[#464543]", // Button background color
+        hoverBgColor: "hover:bg-[#d0cccd] hover:border-[#464543] hover:border-2 ", //F07878 Button hover color
+        textColor: "text-white", // Button text color
+        hoverTextColor: "hover:text-[#464543]",
+        headingColour: "text-[#464543] border-[#464543]",
+        cardbg: "bg-[#d0cccd]",
+    },
+    {
         name: "Calculator",
         images: ["/images/calculator3.png", "/images/calculator2.png"],
         demoLink: "https://arishah-khan.github.io/Calculator-javascript/",

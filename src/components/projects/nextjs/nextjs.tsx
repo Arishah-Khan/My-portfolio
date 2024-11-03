@@ -26,6 +26,19 @@ const projects = [
         headingColour: "text-[#1e5e3f] border-[#1e5e3f]",
         cardbg: "bg-[#c5ead8]",
     },
+    {
+        name: "Agency Website",
+        images: ["/images/agency1.png", "/images/agency2.png" , "/images/agency3.png"],
+        demoLink: "https://nextjs-css-kohl.vercel.app/",
+        codeLink: "https://github.com/Arishah-Khan/nextjs-css",
+        bgColor: "bg-[#5b1a91]", // Button ka background color
+        hoverBgColor: "hover:bg-[#dcc1f8]", // Button hover color
+        textColor: "text-white", // Button text color
+        hoverTextColor: "hover:text-black hover:border-2 hover:border-[#7a54d6]",
+        headingColour: "text-[#5b1a91] border-[#5b1a91]",
+        cardbg: "bg-[#dcc1f8]",
+    },
+
 ];
 
 export default function NextJsProjects() {
