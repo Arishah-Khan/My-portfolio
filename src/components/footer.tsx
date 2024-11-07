@@ -11,9 +11,9 @@ const Footer = () => {
             <div className=" px-3 grid grid-cols-1 md:grid-cols-3 pt- gap-4">
                 <div className="flex justify-center items-center mb-4 gap-2">
                     <Link href="/" className="text-black transition-colors duration-300  rounded-md hover:bg-[#e0e0e0] hover:text-[#01004c] hover:shadow-lg p-2 ">Home</Link>
-                    <Link href="#about" className="text-black transition-colors duration-300 rounded-md hover:bg-[#e0e0e0] hover:text-[#01004c] hover:shadow-lg p-2 ">About</Link>
-                    <Link href="#project" className="text-black transition-colors duration-300 rounded-md hover:bg-[#e0e0e0] hover:text-[#01004c] hover:shadow-lg p-2 ">Projects</Link>
-                    <Link href="#contact" className="text-black transition-colors duration-300 p-2 rounded-md hover:bg-[#e0e0e0] hover:text-[#01004c] hover:shadow-lg ">Contact</Link>
+                    <Link href="/about" className="text-black transition-colors duration-300 rounded-md hover:bg-[#e0e0e0] hover:text-[#01004c] hover:shadow-lg p-2 ">About</Link>
+                    <Link href="/projects" className="text-black transition-colors duration-300 rounded-md hover:bg-[#e0e0e0] hover:text-[#01004c] hover:shadow-lg p-2 ">Projects</Link>
+                    <Link href="/contact" className="text-black transition-colors duration-300 p-2 rounded-md hover:bg-[#e0e0e0] hover:text-[#01004c] hover:shadow-lg ">Contact</Link>
                 </div>
 
                 <div>
