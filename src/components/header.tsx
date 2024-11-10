@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { FaLinkedinIn, FaGithub, FaFacebookF, FaBars, FaHome, FaInfoCircle, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedinIn, FaGithub, FaBars, FaHome, FaInfoCircle, FaEnvelope } from 'react-icons/fa';
 import { BsProjectorFill } from "react-icons/bs";
 import {
     Sheet,
