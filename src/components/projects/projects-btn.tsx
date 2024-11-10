@@ -18,7 +18,7 @@ export default function ProjectBtn({ label, link }: ButtonProps) {
         <section>
             <button
                 onClick={handleNevigations}
-                className="relative flex items-center px-4 md:px-6 py-2 md:py-3 bg-[#071fa8] text-white font-semibold rounded-lg overflow-hidden group transition-all duration-300"
+                className="relative flex items-center px-4 md:px-6 py-1 md:py-3 bg-[#071fa8] text-white font-semibold rounded-lg overflow-hidden group transition-all duration-300"
             >
                 <span className="relative z-10 group-hover:text-black transition-colors duration-300">{label}</span>
                 <span className="relative z-10 ml-2 font-bold transform transition-transform duration-300 translate-x-0 group-hover:translate-x-2 group-hover:text-black">

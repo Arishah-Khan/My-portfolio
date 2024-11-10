@@ -11,13 +11,13 @@ export default function HeroSec() {
         <h3 className={`text-gray-700 font-semibold text-xl sm:text-2xl py-2 `}>
           Hello, I&apos;m
         </h3>
-        <h1 className={`text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#071fa8]`}>
+        <h1 className={`text-3xl md:text-4xl lg:text-5xl font-bold text-[#071fa8]`}>
           Arishah Khan
         </h1>
         <h2 className={`text-xl sm:text-2xl md:text-3xl lg:text-4xl text-black font-semibold`}>
         Full Stack Developer
         </h2>
-        <p className="text-base sm:text-lg md:text-xl text-center">
+        <p className="text-base sm:text-lg md:text-xl text-center text-gray-600">
           I create beautiful and user-friendly interfaces <br /> with ReactJS and NextJS.
         </p>
         <div>

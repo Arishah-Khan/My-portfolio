@@ -60,7 +60,7 @@ export default function ContactMe() {
                                 id="name"
                                 name="name"
                                 required
-                                className="peer p-2 pt-6 pb-0 w-full border-b-2 border-gray-300 focus:outline-none font-bold text-[#071fa8] focus:ring-0 focus:border-[#071fa8] leading-tight"
+                                className="peer p-2 pt-6 pb-0 w-full border-b-2 border-gray-300 focus:outline-none font-semibold text-[#071fa8] focus:ring-0 focus:border-[#071fa8] leading-tight"
                                 placeholder=" "
                             />
                             <label
@@ -79,7 +79,7 @@ export default function ContactMe() {
                                 id="surname"
                                 name="surname"
                                 required
-                                className="peer p-2 pt-6 pb-0 w-full border-b-2 border-gray-300 focus:outline-none font-bold text-[#071fa8] focus:ring-0 focus:border-[#071fa8] leading-tight"
+                                className="peer p-2 pt-6 pb-0 w-full border-b-2 border-gray-300 focus:outline-none font-semibold text-[#071fa8] focus:ring-0 focus:border-[#071fa8] leading-tight"
                                 placeholder=" "
                             />
                             <label
@@ -99,7 +99,7 @@ export default function ContactMe() {
                             id="phNum"
                             name="phNum"
                             required
-                            className="peer p-2 pt-6 pb-0 w-full border-b-2 border-gray-300 focus:outline-none font-bold text-[#071fa8] focus:ring-0 focus:border-[#071fa8] leading-tight"
+                            className="peer p-2 pt-6 pb-0 w-full border-b-2 border-gray-300 focus:outline-none font-semibold text-[#071fa8] focus:ring-0 focus:border-[#071fa8] leading-tight"
                             placeholder=" "
                         />
                         <label
@@ -118,7 +118,7 @@ export default function ContactMe() {
                             id="email"
                             name="email"
                             required
-                            className="peer p-2 pt-6 pb-0 w-full border-b-2 border-gray-300 font-bold text-[#071fa8] focus:outline-none focus:ring-0 focus:border-[#071fa8] leading-tight"
+                            className="peer p-2 pt-6 pb-0 w-full border-b-2 border-gray-300 font-semibold text-[#071fa8] focus:outline-none focus:ring-0 focus:border-[#071fa8] leading-tight"
                             placeholder=" "
                         />
                         <label
@@ -138,7 +138,7 @@ export default function ContactMe() {
                             rows={4}
                             required
                             placeholder=" "
-                            className="peer p-2 pt-6 pb-0 w-full border-b-2 border-gray-300 font-bold text-[#071fa8] focus:outline-none focus:ring-0 focus:border-[#071fa8] leading-tight"
+                            className="peer p-2 pt-6 pb-0 w-full border-b-2 border-gray-300 font-semibold text-[#071fa8] focus:outline-none focus:ring-0 focus:border-[#071fa8] leading-tight"
                         ></textarea>
                         <label
                             htmlFor="message"

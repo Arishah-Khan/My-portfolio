@@ -1,7 +1,7 @@
 // components/Footer.tsx
 
 import Link from 'next/link';
-import { FaLinkedinIn } from "react-icons/fa6";
+import { FaFacebookF, FaLinkedinIn } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import ResumeBtn from './bottons/resume-btn';
 
@@ -42,10 +42,19 @@ const Footer = () => {
                         </span>
                         <span className="absolute left-1/2 bottom-full transform -translate-x-1/2 -translate-y-[1px] w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-black opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
                     </div>
+                    <div className="relative flex items-center justify-center w-8 h-8 bg-black text-white rounded-full hover:bg-[#1877F2] transition-colors duration-300 group">
+                        <Link href="https://www.facebook.com/profile.php?id=61568085214973" aria-label="GitHub" className="flex items-center justify-center">
+                            <FaFacebookF size={20} />
+                        </Link>
+                        <span className="absolute left-1/2 bottom-full mb-1 transform -translate-x-1/2 bg-[#1877F2] text-white px-2 py-1 rounded-md text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            Facebook
+                        </span>
+                        <span className="absolute left-1/2 bottom-full transform -translate-x-1/2 -translate-y-[1px] w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-[#1877F2] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
+                    </div>
                 </div>
             </div>
             <div>
-                <p className="text-center py-5">© 2024 <span className="text-[#071fa8] font-semibold"> Arishah </span>  All Rights Reserved.
+                <p className="text-center py-5">© 2024 <span className="text-[#071fa8] font-semibold"> Arishah Khan</span>  All Rights Reserved.
                 </p>
             </div>
         </footer>

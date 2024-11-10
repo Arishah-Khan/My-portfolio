@@ -24,7 +24,7 @@ const ResumeBtn: FC<ResumeBtnProps> = ({ href, text }) => {
         <div className={`flex justify-center items-center ${rubik.className}`}>
             <button
                 onClick={handleNavigation}
-                className="resume_btn relative bg-[#071fa8] text-white py-2 px-6 rounded-lg border-3 hover:bg-white hover:text-black hover:border-[#071fa8] border-2 shadow-none transition-all duration-300 ease-in-out cursor-pointer group overflow-visible"
+                className="resume_btn relative bg-[#071fa8] text-white py-1 px-4 text-sm md:text-base md:py-2 md:px-6 rounded-lg border-3 hover:bg-white hover:text-black hover:border-[#071fa8] border-2 shadow-none transition-all duration-300 ease-in-out cursor-pointer group overflow-visible"
             >
                 {text} 
                 
