@@ -38,7 +38,7 @@ export default function ContactSec() {
 
                     {/* Instagram Icon */}
                     <div className="relative flex items-center justify-center w-8 h-7 sm:w-8 sm:h-8 bg-gradient-to-r from-pink-500 to-yellow-500 text-white rounded-full hover:opacity-80 transition-opacity duration-300 group">
-                        <Link href="https://www.instagram.com/arishahsanaullah78/?hl=en" aria-label="Instagram" className="flex items-center justify-center">
+                        <Link href="https://www.instagram.com/arishah__khan/" aria-label="Instagram" className="flex items-center justify-center">
                             <FaInstagram size={20} />
                         </Link>
                     </div>
