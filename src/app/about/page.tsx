@@ -9,7 +9,7 @@ export default function AboutMe() {
     {
       degree: "Master's Degree in Mathematics",
       institution: "University of Karachi",
-      year: "2020 - 2022",
+      year: "2021 - 2023",
     },
     {
       degree: "Bachelor's Degree in Science",
