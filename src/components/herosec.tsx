@@ -18,11 +18,11 @@ export default function HeroSec() {
         Full Stack Developer
         </h2>
         <p className="text-base sm:text-lg md:text-xl text-center text-gray-600">
-          I create beautiful and user-friendly interfaces <br /> with ReactJS and NextJS.
+          I design and develop modern, intuitive user interfaces  <br /> with ReactJS and NextJS.
         </p>
         <div>
                   <ResumeBtn 
-        href="https://drive.google.com/file/d/1VOaV_13pheqTqVv2TMnkDrnxqfakcY-A/view?usp=drive_link"
+        href="https://drive.google.com/file/d/1TGURxcBgQiyCb3W9pCozvVoZprc6ja8m/view?usp=sharing"
         text="My Resume" />
         </div>
 
