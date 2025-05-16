@@ -6,6 +6,7 @@ import TypescriptProjects from "@/components/projects/Typescript/typescript";
 import JavaScriptProjects from "@/components/projects/javascript/javascript";
 import FilterBtn from "@/components/projects/filter-btn";
 import { category } from "@/components/categry";
+import ReactJsProjects from "@/components/projects/reactjs/reactjs";
 
 
 
@@ -13,7 +14,7 @@ export default function Projects() {
     const [selectedCategory, setSelectedCategory] = useState<category>("All");
 
 
-    const categories: category[] = ["All", "HTML & CSS", "JavaScript", "TypeScript", "NextJs"];
+    const categories: category[] = ["All", "HTML & CSS", "JavaScript", "TypeScript", "ReactJs" , "NextJs" ];
 
     
     const handleCategoryChange = (category: category) => {
@@ -44,12 +45,14 @@ export default function Projects() {
                         <HtmlCssProjects />
                         <JavaScriptProjects />
                         <TypescriptProjects />
+                        <ReactJsProjects/>
                         <NextJsProjects />
                     </>
                 )}
                 {selectedCategory === "HTML & CSS" && <HtmlCssProjects />}
                 {selectedCategory === "JavaScript" && <JavaScriptProjects />}
                 {selectedCategory === "TypeScript" && <TypescriptProjects />}
+                {selectedCategory === "ReactJs" && <ReactJsProjects />}
                 {selectedCategory === "NextJs" && <NextJsProjects />}
             </div>
         </main>

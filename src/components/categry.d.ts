@@ -1,1 +1,1 @@
-export type category = "All" | "HTML & CSS" | "JavaScript" | "TypeScript" | "NextJs"
+export type category = "All" | "HTML & CSS" | "JavaScript" | "TypeScript" | "ReactJs" | "NextJs"

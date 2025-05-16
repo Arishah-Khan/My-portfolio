@@ -1,6 +1,6 @@
-import HtmlCssProjects from "./HtmlCss/htmlCss";
-import JavaScriptProjects from "./javascript/javascript";
+import NextJsProjects from "./nextjs/nextjs";
 import ProjectBtn from "./projects-btn";
+import ReactJsProjects from "./reactjs/reactjs";
 
 
 
@@ -14,8 +14,8 @@ export default function ProjectSection() {
                 Explore a selection of my projects that showcase my skills in web development and design. Each project highlights different technologies, creativity, and problem-solving abilities.
             </p>
             <div>
-                <HtmlCssProjects />
-                <JavaScriptProjects />
+                 <ReactJsProjects/>
+                 <NextJsProjects />
             </div>
 
             

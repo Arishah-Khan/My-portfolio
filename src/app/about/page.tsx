@@ -2,9 +2,7 @@ import ResumeBtn from "@/components/bottons/resume-btn";
 import Image from "next/image";
 import Card from "@/components/about/about-card";
 
-
 export default function AboutMe() {
-
   const education = [
     {
       degree: "Master's Degree in Mathematics",
@@ -25,8 +23,8 @@ export default function AboutMe() {
       degree: "Matriculation",
       institution: "Al-Hamd Grammar School, Karachi",
       year: "2014 - 2016",
-    }
-  ]
+    },
+  ];
 
   const Certification = [
     {
@@ -35,39 +33,43 @@ export default function AboutMe() {
       year: "Ongoing",
     },
     {
-      name: "Web and Mobile App Development Program",
+      name: "Certification in Mern Stack Developer",
       institution: "Saylani Mass IT Training",
-      year: "Ongoing",
-    }
-  ]
+      year: "2024 - 2025",
+    },
+  ];
   return (
-
     <main className={`bg-[#fafafa] py-8`}>
       {/* Heading Section */}
       <section className="text-center">
-        <h1 className={`text-4xl font-bold  text-[#071fa8]`}>
-          About Me
-        </h1>
+        <h1 className={`text-4xl font-bold  text-[#071fa8]`}>About Me</h1>
       </section>
 
       <div className="grid grid-cols-1 md:grid-cols-2 items-center py-8 px-4">
-
-
-
         <div className="py-4 flex flex-col justify-center items-center pt-6 md:px-4">
           <h2 className={`text-2xl font-semibold text-gray-700`}>
-            Greetings from Arishah
+            Welcome from Arishah Khan
           </h2>
-          <p className={`text-gray-500 text-xs sm:text-sm  md:text-base  leading-relaxed mt-4`}>
-            {`I'm a passionate Full Stack Developer with a strong background in mathematics, constantly exploring new technologies. I have expertise in HTML, CSS, Bootstrap, Tailwind, ReactJS, and NextJS, allowing me to create responsive and user-friendly interfaces. I enjoy working on both frontend and backend technologies, crafting end-to-end solutions that provide exceptional user experiences.
-Collaboration and effective communication are crucial to my approach, as I seek feedback to improve my work. My goal is to build aesthetically pleasing and high-performance websites while embracing the latest trends and best practices in web development.`}
-
+          <p className="text-gray-500 text-xs sm:text-sm md:text-base leading-relaxed mt-4">
+            {
+              "I'm a Full Stack Developer with a strong background in mathematics and a passion for building modern web applications. I specialize in HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Redux, and Context API."
+            }
+            <br />
+            <br />
+            {
+              "I create responsive and user-friendly designs using Tailwind CSS, Bootstrap, ShadCN, and Figma. On the backend, I work with Node.js, Express.js, MongoDB, Firebase, and Sanity (Headless CMS)."
+            }
+            <br />
+            <br />
+            {
+              "I'm familiar with Git, GitHub, and have a basic understanding of Python. I focus on clean code, collaboration, and continuous learning to deliver complete, scalable solutions."
+            }
           </p>
 
           {/* Resume Button */}
           <div className="py-6 flex justify-center">
             <ResumeBtn
-              href="https://drive.google.com/file/d/1VOaV_13pheqTqVv2TMnkDrnxqfakcY-A/view?usp=drive_link"
+        href="https://drive.google.com/file/d/1TGURxcBgQiyCb3W9pCozvVoZprc6ja8m/view?usp=sharing"
               text="My Resume"
             />
           </div>
@@ -97,42 +99,46 @@ Collaboration and effective communication are crucial to my approach, as I seek 
           </div>
         </div>
       </div>
-      <section className="space-y-10 grid justify-center items-center "> {/* Adds spacing between sections */}
-    
-    {/* Education Section */}
-    <div className=" py-10 px-6 sm:px-10 md:px-14 lg:px-16">
-        <h2 className="text-2xl font-semibold text-center text-[#071fa8] mb-6">Education</h2> {/* Section Title */}
-        <div className="grid grid-cols-1  gap-6"> {/* Grid Layout for Cards */}
+      <section className="space-y-10 grid justify-center items-center ">
+        {" "}
+        {/* Adds spacing between sections */}
+        {/* Education Section */}
+        <div className=" py-10 px-6 sm:px-10 md:px-14 lg:px-16">
+          <h2 className="text-2xl font-semibold text-center text-[#071fa8] mb-6">
+            Education
+          </h2>{" "}
+          {/* Section Title */}
+          <div className="grid grid-cols-1  gap-6">
+            {" "}
+            {/* Grid Layout for Cards */}
             {education.map((element, index) => (
-                <Card
-                    key={index}
-                    degree={element.degree}
-                    institute={element.institution}
-                    year={element.year}
-                />
+              <Card
+                key={index}
+                degree={element.degree}
+                institute={element.institution}
+                year={element.year}
+              />
             ))}
+          </div>
         </div>
-    </div>
-
-    {/* Certification Section */}
-    <div className="py-10 px-6 sm:px-10 md:px-14 lg:px-16 rounded-lg ">
-        <h2 className="text-2xl font-semibold text-center text-[#071fa8] mb-6">Certifications</h2> {/* Section Title */}
-        <div className="grid grid-cols-1 gap-6"> 
+        {/* Certification Section */}
+        <div className="py-10 px-6 sm:px-10 md:px-14 lg:px-16 rounded-lg ">
+          <h2 className="text-2xl font-semibold text-center text-[#071fa8] mb-6">
+            Certifications
+          </h2>{" "}
+          {/* Section Title */}
+          <div className="grid grid-cols-1 gap-6">
             {Certification.map((element, index) => (
-                <Card
-                    key={index}
-                    degree={element.name}
-                    institute={element.institution}
-                    year={element.year}
-                />
+              <Card
+                key={index}
+                degree={element.name}
+                institute={element.institution}
+                year={element.year}
+              />
             ))}
+          </div>
         </div>
-    </div>
-
-</section>
-
-
-
+      </section>
     </main>
   );
 }
